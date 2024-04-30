@@ -89,3 +89,10 @@ button:focus {
   padding: 0.5rem 1rem;
   /* scale: 1.1; */
 }
+
+@media (width < 50rem) {
+  .container {
+    max-width: 20rem;
+    padding: 1rem;
+  }
+}

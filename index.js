@@ -7,8 +7,9 @@ function reverseString(str) {
 
 function check() {
   const value = input.value;
+
   const reverse = reverseString(value);
-  alert(reverse);
+  //   alert(reverse);
 
   if (reverse === value) {
     console.log(true);

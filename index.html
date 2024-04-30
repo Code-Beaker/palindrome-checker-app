@@ -23,8 +23,17 @@
           placeholder="Enter a word"
           name="textInput"
           id="wordInput"
+          aria-label="Word input"
+          aria-hidden="false"
         />
-        <button onclick="check()" type="submit">Check the word</button>
+        <button
+          aria-label="check"
+          aria-hidden="false"
+          onclick="check()"
+          type="submit"
+        >
+          Check the word
+        </button>
       </div>
     </main>
     <script src="index.js"></script>
