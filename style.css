@@ -23,8 +23,12 @@ main {
   background-color: var(--yellow);
   padding: 2rem;
   border-radius: 1rem;
-  text-align: center;
+  /* text-align: center; */
   overflow: hidden;
+}
+
+.text {
+  text-align: center;
 }
 
 input {
@@ -75,6 +79,7 @@ button:focus {
   padding: 0.25rem;
   border-radius: 1rem;
   font-size: 1rem;
+  text-align: center;
   margin: 2rem auto;
   display: block;
   border: 1px solid black;
@@ -88,6 +93,10 @@ button:focus {
   border-radius: 0rem;
   padding: 0.5rem 1rem;
   /* scale: 1.1; */
+}
+
+label {
+  text-align: left;
 }
 
 @media (width < 50rem) {
